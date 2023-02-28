@@ -1,0 +1,84 @@
+{
+    "intents" : [
+      {
+        "tag" : " saudação " ,
+        "patterns" : [
+          " Oi " ,
+          " Ei " ,
+          " Como você está " ,
+          " Tem alguém aí? " ,
+          " Olá " ,
+          " Bom dia "
+        ],
+        "responses" : [
+          " Oi :-) " ,
+          " Olá, obrigado pela visita " ,
+          " Olá, o que posso fazer por você? " ,
+          " Olá, como posso ajudar? "
+        ]
+      },
+      {
+        "tag" : " adeus " ,
+        "patterns" : [ " Tchau " , " Até logo " , " Tchau " ],
+        "responses" : [
+          " Até logo, obrigado pela visita " ,
+          " Tenha um bom dia " ,
+          " Tchau! Volte logo. "
+        ]
+      },
+      {
+        "tag" : " obrigado " ,
+        "patterns" : [ " Obrigado " , " Obrigado " , " Isso é útil " , " Muito obrigado! " ],
+        "responses" : [ " Prazer em ajudar! " , " A qualquer hora! " , " É um prazer " ]
+      },
+      {
+        "tag" : " itens " ,
+        "patterns" : [
+          " Quais itens você tem? " ,
+          " Que tipos de itens existem? " ,
+          " O que você vende? "
+        ],
+        "responses" : [
+          " Vendemos café e chá " ,
+          " Temos café e chá "
+        ]
+      },
+      {
+        "tag" : " pagamentos " ,
+        "patterns" : [
+          " Vocês aceitam cartões de crédito? " ,
+          " Aceita Mastercard? " ,
+          " Posso pagar com Paypal? " ,
+          " Você é apenas dinheiro? "
+        ],
+        "responses" : [
+          " Aceitamos VISA, Mastercard e Paypal " ,
+          " Aceitamos a maioria dos principais cartões de crédito e Paypal "
+        ]
+      },
+      {
+        "tag" : " entrega " ,
+        "patterns" : [
+          " Quanto tempo demora a entrega? " ,
+          " Quanto tempo demora o envio? " ,
+          " Quando recebo minha entrega? "
+        ],
+        "responses" : [
+          " A entrega leva de 2 a 4 dias " ,
+          " O envio leva de 2 a 4 dias "
+        ]
+      },
+      {
+        "tag" : " engraçado " ,
+        "patterns" : [
+          " Conte-me uma piada! " ,
+          " Diga-me algo engraçado! " ,
+          " Você conhece uma piada? "
+        ],
+        "responses" : [
+          " Por que o hipster queimou a boca? Ele bebeu o café antes de esfriar. " ,
+          " O que o búfalo disse quando seu filho foi para a faculdade? Bisonte. "
+        ]
+      }
+    ]
+  }
