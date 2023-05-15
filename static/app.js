@@ -3,10 +3,6 @@ class Chatbox {
     
     constructor() {
 
-        function ocult(display) {
-            document.getElementById(display).hidden=true
-        }
-
         this.args = {
             openButton: document.querySelector('.chatbox__button'),
             chatBox: document.querySelector('.chatbox__support'),

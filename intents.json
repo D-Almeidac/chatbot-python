@@ -8,11 +8,11 @@
           " Como você está " ,
           " Tem alguém aí? " ,
           " Olá " ,
-          " Bom dia "
+          " Bom dia ",
+          " Ola",
+          " ola"
         ],
         "responses" : [
-          " Oi :-) " ,
-          " Olá, obrigado pela visita " ,
           " Olá, o que posso fazer por você? " ,
           " Olá, como posso ajudar? "
         ]
@@ -32,53 +32,302 @@
         "responses" : [ " Prazer em ajudar! " , " A qualquer hora! " , " É um prazer " ]
       },
       {
-        "tag" : " itens " ,
+        "tag" : " Quem são as pessoas afetadas? " ,
         "patterns" : [
-          " Quais itens você tem? " ,
-          " Que tipos de itens existem? " ,
-          " O que você vende? "
+          " Quem são as pessoas afetadas ? " ,
+          " quem são pessoas afetadas ? "
         ],
         "responses" : [
-          " Vendemos café e chá " ,
-          " Temos café e chá "
+          "São a todas as pessoa que busquem melhor qualidade de atendimento e informações sobre os cursos oferecidos pela faculdade. Com o intuito de garantir a melhor satisfação do usuário 😉"
         ]
       },
       {
-        "tag" : " pagamentos " ,
+        "tag" : " O que desejam? " ,
         "patterns" : [
-          " Vocês aceitam cartões de crédito? " ,
-          " Aceita Mastercard? " ,
-          " Posso pagar com Paypal? " ,
-          " Você é apenas dinheiro? "
+          " O que desejam ? ",
+          "o que desejam ?"
         ],
         "responses" : [
-          " Aceitamos VISA, Mastercard e Paypal " ,
-          " Aceitamos a maioria dos principais cartões de crédito e Paypal "
+          "Nosso grupo optou por projetar e implantar um boot dentro do site da Unama que vai obter informações completa de cada curso, conforme a procura do usuário. Ele vai interagir e tirar todas as dúvidas através de perguntas que serão formadas pelo próprio usuário. "
         ]
       },
       {
-        "tag" : " entrega " ,
+        "tag" : " Cumprimentos " ,
         "patterns" : [
-          " Quanto tempo demora a entrega? " ,
-          " Quanto tempo demora o envio? " ,
-          " Quando recebo minha entrega? "
+          " Tudo bem ? " ,
+          " Tudo Bom ?",
+          "Como vai vc ?",
+          "Como vai você?",
+          "td bem ?",
+          "td bom ?"
         ],
         "responses" : [
-          " A entrega leva de 2 a 4 dias " ,
-          " O envio leva de 2 a 4 dias "
+          " Tudo, ótimo!!! "
         ]
       },
       {
-        "tag" : " engraçado " ,
+        "tag" : " $erpinha " ,
         "patterns" : [
-          " Conte-me uma piada! " ,
-          " Diga-me algo engraçado! " ,
-          " Você conhece uma piada? "
+          " Quem é você? " ,
+          " como você se chama?",
+          " quem é vc ?",
+          " Quem é vc?"
         ],
         "responses" : [
-          " Por que o hipster queimou a boca? Ele bebeu o café antes de esfriar. " ,
-          " O que o búfalo disse quando seu filho foi para a faculdade? Bisonte. "
+          "  Sou o assistente virtual da Unama, meu nome é $erpinha 🥷 "
+        ]
+      },
+      {
+        "tag" : " Integrantes " ,
+        "patterns" : [
+          " Quem são os integrantes do grupo ? " ,
+          " quem são os integrantes do grupo ? ",
+          " Quem são meus criadores ?"
+        ],
+        "responses" : [
+          " Diogo Almeida, Marcos Felipe, Matheus Serpa, Christyan Medeiros e Davi Luiz "
+        ]
+      },
+      {
+        "tag" : " Programado " ,
+        "patterns" : [
+          " Como vocẽ foi feito ? " ,
+          " como você foi criado ?  ",
+          " como vc foi criado ?",
+          " Como vc foi criado ?"
+        ],
+        "responses" : [
+          " Fui programado em Python e Javascript e minha estilização em Css e Html, utilizando FrameWork Flask e Uma pequena Rede Neural que me permite entender abreviações, pontuações e outros idiomas 🇧🇷🇩🇪🇫🇷🇮🇹🇪🇸🇺🇸 😉😎👊"
+        ]
+      },
+      {
+        "tag" : "  cumprimentos Inglês " ,
+        "patterns" : [
+          " Hi " ,
+          " Hello ",
+          "Good Morning"
+          
+        ],
+        "responses" : [
+          " Hello, Good Morning!!!"
+        ]
+      },
+      {
+        "tag" : "  adeus Inglês " ,
+        "patterns" : [
+          " Bye " ,
+          " see you later "
+          
+        ],
+        "responses" : [
+          " Goodbye"
+        ]
+      },
+      {
+        "tag" : "  Cumprimentos2 Inglês " ,
+        "patterns" : [
+          " How are you? "
+        ],
+        "responses" : [
+          " Good, thanks !!!"
+        ]
+      },
+      {
+        "tag" : "  Cumprimentos Frances " ,
+        "patterns" : [
+          " Bonjour "
+        ],
+        "responses" : [
+          " Bonjour"
+        ]
+      },
+      {
+        "tag" : "  adeus Frances " ,
+        "patterns" : [
+          " Au revoir "
+        ],
+        "responses" : [
+          " Au revoir",
+          "À plus tard"
+        ]
+      },
+      {
+        "tag" : "  cumprimentos2 Frances " ,
+        "patterns" : [
+          " Comment allez vous?"
+        ],
+        "responses" : [
+          "Bien, merci !!!"
+        ]
+      },
+      {
+        "tag" : "  cumprimentos Alemao " ,
+        "patterns" : [
+          " Hallo",
+          "Guten Morgen"
+        ],
+        "responses" : [
+          "Hallo, Guten Morgen"
+        ]
+      },
+      {
+        "tag" : "  adeus Alemao " ,
+        "patterns" : [
+          " Verabschiedung"
+        ],
+        "responses" : [
+          "Bis später"
+        ]
+      },
+      {
+        "tag" : "  cumprimentos2 Alemao " ,
+        "patterns" : [
+          "Wie geht es dir?"
+        ],
+        "responses" : [
+          "Gut, Danke!!!"
+        ]
+      },
+      {
+        "tag" : "  cumprimentos Italiano " ,
+        "patterns" : [
+          "Ciao",
+          "Buongiorno"
+        ],
+        "responses" : [
+          "Ciao, Buongiorno!!!"
+        ]
+      },
+      {
+        "tag" : "  adeus Italiano " ,
+        "patterns" : [
+          "Arrivederci"
+        ],
+        "responses" : [
+          "Arrivederci"
+        ]
+      },
+      {
+        "tag" : "  cumprimentos2 Italiano " ,
+        "patterns" : [
+          "Como stai?"
+        ],
+        "responses" : [
+          "Bene, grazie!!!"
+        ]
+      },
+      {
+        "tag" : "  cumprimentos Espanhol " ,
+        "patterns" : [
+          " Hola "
+        ],
+        "responses" : [
+          " Hola"
+        ]
+      },
+      {
+        "tag" : "  adeus Espanhol " ,
+        "patterns" : [
+          " adiós "
+        ],
+        "responses" : [
+          " adiós",
+          "hasta luego"
+        ]
+      },
+      {
+        "tag" : "  cumprimentos2 Espanhol " ,
+        "patterns" : [
+          " Cómo estás? "
+        ],
+        "responses" : [
+          "Bien, Gracias!!!"
+        ]
+      },
+      {
+        "tag" : " $erpinha Ingles " ,
+        "patterns" : [
+          " Who are you?",
+          "What your name?"
+        ],
+        "responses" : [
+          "I'm Unama's virtual assistant, my name is $erpinha"
+        ]
+      },
+      {
+        "tag" : " $erpinha Frances " ,
+        "patterns" : [
+          "Quel est vous nom?",
+          "Qui es-tu?"
+        ],
+        "responses" : [
+          "Je suis l'assistante virtuelle d'Unama, je m'appelle $erpinha"
+        ]
+      },
+      {
+        "tag" : " $erpinha Alemao " ,
+        "patterns" : [
+          "Wie heißen Sie?",
+          "Wer bist du?"
+        ],
+        "responses" : [
+          "Ich bin Unamas virtuelle Assistentin, mein Name ist $erpinha"
+        ]
+      },
+      {
+        "tag" : " $erpinha Italiano " ,
+        "patterns" : [
+          "Como ti Chami?",
+          "Chi sei?"
+        ],
+        "responses" : [
+          "Sono l'assistente virtuale di Unama, mi chiamo $erpinha "
+        ]
+      },
+      {
+        "tag" : " $erpinha Espanhol " ,
+        "patterns" : [
+          "Como tu te llamas?",
+          "Quién eres tú?"
+        ],
+        "responses" : [
+          "Soy la asistente virtual de Unama, mi nombre es $erpinha    "
+        ]
+      },
+      {
+        "tag" : " Por quê fui criado " ,
+        "patterns" : [
+          " Por que fui criado ?",
+          "pq fui criado ?",
+          "Pq fui criado ?",
+          "pq vc foi criado ?",
+          "Pq vc foi criado ?"
+        ],
+        "responses" : [
+          "Para melhor interação entre o usuário e o site, de forma a garantir a melhor qualidade e acessibilidade do beneficiário 🤙👍👊"
+        ]
+      },
+      {
+        "tag" : " Onde serei implementado " ,
+        "patterns" : [
+          " Onde serei implementado ?"
+        ],
+        "responses" : [
+          "No portal do aluno Unama"
         ]
       }
+
+      
+
+
+
+
+
+
+
+
+
+
+
     ]
   }
